@@ -1,0 +1,7 @@
+interface:
+  display_name: "Amazon知识产权风险筛查"
+  short_description: "基于H10自然词表与准确商品链接筛查亚马逊IP风险"
+  default_prompt: "使用 $amazon-ip-risk-screener，根据这份直接竞品H10自然关键词表和准确的Amazon商品链接筛查知识产权风险。"
+
+policy:
+  allow_implicit_invocation: true
